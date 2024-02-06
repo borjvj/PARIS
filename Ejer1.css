@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* Encabezado */
+h1{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    justify-content: center;
+    font-size: 6em ;
+    background-image: url("https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1920/v1698924104/nwjq2lj6opfwuykdnogf.jpg");
+    background-size: cover;
+    height: 390px;
+    background-position: center;
+    color: red;
+    
+}
+/* seccion primera */
+
+.grilla{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 1.5em;
+    gap:0.4em ;
+    background-color: red;
+    
+}
+li { 
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 1.2em;
+    color: azure;
+    
+
+}
+
+ol,ul {
+    background-color: rgb(112, 95, 242);
+}
+
+/* seccion imágenes */ 
+.grilla1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    background-color: red;
+    
+}
+img{
+    max-width: 500px;
+    
+    width: 100%; 
+    height: auto;
+    justify-content: center;
+
+    
+    
+}
+/*Sección de experiencias únicas*/
+h3{
+    font-size: xx-large;
+    text-align: center;
+    padding: 1em;
+}
+
+p{
+    text-align: center;
+    padding: 0.5em;
+    font-size: x-large;
+    color: azure;;
+}
+.experiencia{
+    background-color:rgb(112, 95, 242) ;
+    justify-content: center;
+}
